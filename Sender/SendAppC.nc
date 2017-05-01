@@ -1,11 +1,11 @@
-configuration Project2SendAppC{
+configuration SendAppC{
 	//
 }
 implementation{
 
 	//General
 	components MainC, LedsC;
-	components Project2SendC as App;
+	components SendC as App;
 
 	App.Boot -> MainC;
 	App.Leds -> LedsC;

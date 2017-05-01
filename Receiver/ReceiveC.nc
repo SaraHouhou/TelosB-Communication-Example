@@ -1,6 +1,6 @@
 #include "packets.h"
 
-module Project2ReceiveC{
+module ReceiveC{
 	uses { //General
 		interface Boot;
 		interface Leds;

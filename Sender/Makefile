@@ -1,3 +1,3 @@
-COMPONENT=Project2SendAppC
+COMPONENT=SendAppC
 CFLAGS += -I$(TOSDIR)/lib/printf
 include $(MAKERULES)

@@ -1,11 +1,11 @@
-configuration Project2ReceiveAppC{
+configuration ReceiveAppC{
 	//
 }
 implementation{
 
 	//General
 	components MainC, LedsC;
-	components Project2ReceiveC as App;
+	components ReceiveC as App;
 
 	App.Boot -> MainC;
 	App.Leds -> LedsC;

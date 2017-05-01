@@ -1,2 +1,2 @@
-COMPONENT=Project2ReceiveAppC
+COMPONENT=ReceiveAppC
 include $(MAKERULES)

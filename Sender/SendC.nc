@@ -3,7 +3,7 @@
 #include <string.h>
 #include "packets.h"
 
-module Project2SendC{
+module SendC{
 	uses { //General
 		interface Boot;
 		interface Leds;
