@@ -1,2 +1,0 @@
-COMPONENT=ReceiveAppC
-include $(MAKERULES)
